@@ -1,11 +1,5 @@
 export default {
   widgets: [
-    {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
-      }
-    },
     {name: 'structure-menu'},
     {
       name: 'project-info',
@@ -25,7 +19,7 @@ export default {
                 },
                 {
                   buildHookId: '603c4496d579f13f4b7c7046',
-                  title: 'Blog Website',
+                  title: 'Portfolio Website',
                   name: 'david-flynn-design',
                   apiId: 'ad59b1ef-f51b-4a10-b77f-9713301cdbda'
                 }

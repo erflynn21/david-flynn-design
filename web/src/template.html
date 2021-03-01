@@ -1,33 +1,33 @@
 <!doctype html>
-<html>
+<html lang='en'>
 <head>
 	<meta charset='utf-8'>
+	<meta name="description" content="Graphic design studio based in Akron, Ohio">
+	<meta name="keywords"
+		content="Graphic Design, Graphics, Akron, Ohio, Advertising, David Flynn, Packagaing, Logos, Logo, Branding, Corporate Reports, Publications">
 	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#333333'>
+	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="#da532c">
 
 	%sapper.base%
 
 	<link rel='stylesheet' href='global.css'>
 	<link rel='manifest' href='manifest.json'>
 	<link rel='icon' type='image/png' href='favicon.png'>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-	<!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500&display=swap"
+		rel="stylesheet">
+
 	%sapper.styles%
-
-	<!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
+	
 	%sapper.head%
 </head>
 <body>
-	<!-- The application will be rendered inside this element,
-	     because `app/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>
 
-	<!-- Sapper creates a <script> tag containing `app/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
 	%sapper.scripts%
 </body>
 </html>
